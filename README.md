@@ -52,7 +52,7 @@ Sound Classes and Dataset used for the synthesis:
 
 
 ## Naming Convection
-[Day]_[Microphone Location/Scene]_[Time].wav
+```[Day]_[Microphone Location/Scene]_[Time].wav```
 e.g. “Mon_Park_3pm.wav” represent Park scene on Monday synthesized at 3pm
 
 
