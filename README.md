@@ -35,20 +35,20 @@ We use 14 acoustic sound classes divided into event and background as below:
 
 |Events	|Backgrounds|
 |-------|-----------|
-|Vehicle, Children Playing, Street Music, Phone Ring, School Bell, Car Horn, Bird, and Dog Bark	|Train, Pedestrian, Cafe Crowd, Urban Park, River, and Fountain
+|Vehicle, Children Playing, Street Music, Phone Ring, School Bell, Car Horn, Bird, and Dog Bark	      |Train, Pedestrian, Cafe Crowd, Urban Park, River, and Fountain
 
 Sound Classes and Dataset used for the synthesis:
 
-|Sound Class	|Source Dataset|
-|-------------|--------------|
-|Vehicle	    |IDMT Traffic|
-|Train, Cafe Crowd, Urban Park|	TUT Rare Sound Events 2017|
-|Pedestrian|	TAU Urban Acoustic Scenes 2020 Mobile|
+|Sound Class	                 |Source Dataset|
+|-------------                 |--------------|
+|Vehicle	                     |IDMT Traffic|
+|Train, Cafe Crowd, Urban Park |	TUT Rare Sound Events 2017|
+|Pedestrian                    |	TAU Urban Acoustic Scenes 2020 Mobile|
 |Children Playing, Street Music|	UrbanSound|
-|Phone Ring|	NIGENS|
-|School Bell, River, Fountain|	FreeSound.org|
-|Car Horn, Dog Bark|	UrbanSound8K|
-|Bird|	ESC-50|
+|Phone Ring                    |	NIGENS|
+|School Bell, River, Fountain  |	FreeSound.org|
+|Car Horn, Dog Bark            |	UrbanSound8K|
+|Bird                          |	ESC-50|
 
 
 ## Naming Convection
@@ -73,8 +73,8 @@ This example represents “Sun_Park_9am.wav” contain 7 vehicle sound event eac
 A track of vehicle sounds is traced at each microphone location which is compiled into “Traffic_Temporal_MetaData.xlsx”.
 
 e.g.
-|Wavefile|	IDMT_File|	[Tstart Tend]|
-|--------|-----------|---------------|
+|Wavefile        |	IDMT_File   |	[Tstart Tend]|
+|--------        |-----------   |---------------|
 |Mon_Park_7am.wav|	2019-11-13-08-00_Schleusinger-Allee_70Kmh_2262920_M_W_CL_SE_CH34.wav|	[13286, 15286]|
 
 Above table represent the mentioned IDMT file present in “Mon_Park_7am.wav” sound segment in timestamp [13286 to 15286] in milliseconds.
