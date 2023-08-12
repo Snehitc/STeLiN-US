@@ -41,14 +41,14 @@ Sound Classes and Dataset used for the synthesis:
 
 |Sound Class	                 |Source Dataset|
 |-------------                 |--------------|
-|Vehicle	                     |IDMT Traffic|
-|Train, Cafe Crowd, Urban Park |	TUT Rare Sound Events 2017|
-|Pedestrian                    |	TAU Urban Acoustic Scenes 2020 Mobile|
-|Children Playing, Street Music|	UrbanSound|
-|Phone Ring                    |	NIGENS|
-|School Bell, River, Fountain  |	FreeSound.org|
-|Car Horn, Dog Bark            |	UrbanSound8K|
-|Bird                          |	ESC-50|
+|Vehicle	                     |  [IDMT Traffic](https://doi.org/10.48550/arXiv.2104.13620 "IDMT")|
+|Train, Cafe Crowd, Urban Park |	[TUT Rare Sound Events 2017](https://doi.org/10.5281/zenodo.401395 "TUT Rare Sound 2017")|
+|Pedestrian                    |	[TAU Urban Acoustic Scenes 2020 Mobile](https://doi.org/10.5281/zenodo.3819968 "TAU Scene 2020")|
+|Children Playing, Street Music|	[UrbanSound](https://doi.org/10.1145/2647868.2655045 "UrbanSound")|
+|Phone Ring                    |	[NIGENS](https://doi.org/10.48550/arXiv.1902.08314 "NIGENS")|
+|School Bell, River, Fountain  |	[FreeSound](https://freesound.org/ "freesound")|
+|Car Horn, Dog Bark            |	[UrbanSound8K](https://doi.org/10.1145/2647868.2655045 "UrbanSound")|
+|Bird                          |	[ESC-50](https://www.karolpiczak.com/papers/Piczak2015-ESC-Dataset.pdf "ESC-50")|
 
 
 ## Naming Convection
