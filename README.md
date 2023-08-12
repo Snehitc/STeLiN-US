@@ -85,27 +85,37 @@ Above table represent the mentioned IDMT file present in “Mon_Park_7am.wav” 
 STeLiN-US
 |    MetaData.xlsx
 |    Traffic_Temporal_MetaData.xlsx
-|    README.md
-|__Street
-|    |    Fri_Street_1pm.wav
-|    |    Fri_Street_2am.wav
-|    |    …
-|__Metro-Station
-|    |    Fri_Metro-Station_1pm.wav
-|    |    Fri_Metro-Station_2pm.wav
-|    |    …
-|__Park
-|    |    Fri_Park_1pm.wav
-|    |    Fri_Park_2pm.wav
-|    |    …
-|__School-Playground
-|    |    Fri_School-Playground_1pm.wav
-|    |    Fri_School-Playground_2pm.wav
-|    |    …
-|__Cafe
-|    |    Fri_Cafe_1pm.wav
-|    |    Fri_Cafe_2pm.wav
-|    |    …
+|
+|____Readme
+|    |    README.md
+|    |    Map_Paper.png
+|
+|
+|____Audio
+|    |____Street
+|    |    |    Fri_Street_1pm.wav            file naming convection: [Day]_[Microphone Location/Scene]_[Time].wav
+|    |    |    Fri_Street_2am.wav
+|    |    |    …
+|
+|    |____Metro-Station
+|    |    |    Fri_Metro-Station_1pm.wav
+|    |    |    Fri_Metro-Station_2pm.wav
+|    |    |    …
+|
+|    |____Park
+|    |    |    Fri_Park_1pm.wav
+|    |    |    Fri_Park_2pm.wav
+|    |    |    …
+|
+|    |____School-Playground
+|    |    |    Fri_School-Playground_1pm.wav
+|    |    |    Fri_School-Playground_2pm.wav
+|    |    |    …
+|
+|    |____Cafe
+|    |    |    Fri_Cafe_1pm.wav
+|    |    |    Fri_Cafe_2pm.wav
+|    |    |    …
 
 ```
 
