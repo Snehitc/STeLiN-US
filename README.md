@@ -22,6 +22,7 @@ The proposed STeLiN-US dataset simulates the acoustic appearance of closely inte
 ## Synthesis Procedure
 We propose a map with the mentioned microphone locations which represent the scene as below. 
 ![Map](Map_with_Graph.png)
+
 This map also forms a base to make the interconnection using the vehicle sound, with mentioned distances for microphones from each other and speed of the vehicles for each clip from IDMT dataset helps to form a robust interconnection. 
 Sound events Vehicle, Car Horn, Street Music, Pedestrian, and Dog Bark follows the real surrounding pattern of presence of events from the [SONYC](https://dcase.community/challenge2020/task-urban-sound-tagging-with-spatiotemporal-context "SONYC") study. And background sound Metro Station, Park, and Cafe follows the google maps popular time index using [LivePopularTimes](https://github.com/GrocerCheck/LivePopularTimes.git "LivePopularTimes") python package 
 
