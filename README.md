@@ -1,7 +1,7 @@
 # STeLiN-US Database
 
 ## Download Link
-https://zenodo.org/records/8241539
+[STeLiN-US Database](https://zenodo.org/records/8241539)
 
 ## Created by
 **Snehit Chunarkar, Bo-Hao Su, Chi-Chun Lee**
