@@ -23,7 +23,7 @@ import numpy as np
 from tqdm import tqdm
 
 # User Define: Dictionary location of STeLin-US Dataset
-Dir = "E:\BIIC\Dataset\Python\Data Sort\Mix\Output"
+Dir = "User_Need_To_Give_Address_of_STeLiN-US_Dataset_Dictionary_location_here"
 
 Audio_path = Dir+"\STeLiN-US\Audio"
 
