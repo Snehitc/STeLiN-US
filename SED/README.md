@@ -17,6 +17,7 @@ Use ```df_polyphonic_meta.py``` to generate df required for the SED dataloader o
 2. **Input:** Mel-spectrogram (128x157)
 3. **Output:** Tensor of length 8 with binary values 0 or 1 indicating if the particular event is present or not.
 
+![SED Model](Model_Sample_temp_2.JPG) 
 
 ## Results
 Under work
