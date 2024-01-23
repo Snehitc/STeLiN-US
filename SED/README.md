@@ -1,7 +1,9 @@
 # SED
 
-## polyphonic metadata
-use df_polyphonic_meta.py to generate df required for the SED dataloader.
+## Polyphonic metadata
+Use ```df_polyphonic_meta.py``` to generate df required for the SED dataloader or the User can directly use ```df_polyphonic_meta.pkl``` file to get the following dataframe. Note that the pickle file (```.pkl```) retains the data type in df while loading, which is not the case with the ```.xlsx``` file; hence ```.pkl``` format is recommended.
+
+```df_polyphonic_meta.pkl``` having the data as follow
 | Index | Wavefile	| Events | Clip |
 |-------|-------|-----------|-----------|
 | 0 | Fri_Cafe_10am.wav | [Car_Horn, Vehicle] |	(14093, 19093) |
@@ -11,8 +13,10 @@ use df_polyphonic_meta.py to generate df required for the SED dataloader.
 | 12106	| Wed_Street_9pm.wav	| [Phone_Ring] |	(280176, 282176) |
 
 ## Baseline
-The baseline for STeLiN-US is the CNN as shown in the figure below, where the mel-spectrogram is used as input to the model and 8 output linear layer for predicting 8 Events. 
-![Model](Model_Sample_temp.JPG)
+1. **Model:** The baseline for STeLiN-US is the CNN, with 8 conv layer with ReLU followed by 1 linear layer with ReLU and a final linear layer with Sigmoid as shown in the figure below.
+2. **Input:** Mel-spectrogram (128x157)
+3. **Output:** Tensor of length 8 with binary values 0 or 1 indicating if the particular event is present or not.
+
 
 ## Results
 Under work
