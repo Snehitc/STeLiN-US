@@ -29,7 +29,7 @@ Audio_path = Dir+"\STeLiN-US\Audio"
 
 
 # Raw metadata from given STeLin-US
-df = pd.read_excel(Dir+'\STeLiN-US\MetaData - Copy.xlsx')
+df = pd.read_excel(Dir+'\STeLiN-US\MetaData.xlsx')
 print('\ndf: \n', df[:5])           # print fist 5 rows of given metadata
 
 Events = list(df.columns.values[1::2])  # All Events list from metadata
