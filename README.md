@@ -49,7 +49,10 @@ STeLiN-US
 |
 |____SED
 |    |____Images
-|         |____Map_with_Graph.png
+|         |____Model_Git.jpg
+|         |____Train_Valid_loss.png
+|         |____classification_report.jpg
+|         |____epoch_30_results.jpg
 |    |____README.md
 |    |____df_polyphonic_meta.pkl
 |    |____df_polyphonic_meta.py
