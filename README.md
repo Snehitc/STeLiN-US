@@ -1,7 +1,7 @@
 # STeLiN-US Database
 
 ## Download Link
-[STeLiN-US Database](https://zenodo.org/records/8241539)\
+[STeLiN-US Database](https://zenodo.org/records/10560740)\
 The dataset is 4.0 GB in size and can be downloaded in a zip file from the above link.
 
 
