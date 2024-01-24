@@ -55,7 +55,7 @@ STeLiN-US
 |    |____df_polyphonic_meta.py
 |    |____STeLiN_US_Data.py
 |    |____Model.py
-|    |____SED_Train.py
+|    |____main.py
 |
 |____README.md
 
