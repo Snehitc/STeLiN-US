@@ -17,7 +17,11 @@ Use ```df_polyphonic_meta.py``` to generate df required for the SED dataloader o
 2. **Input:** Mel-spectrogram (128x157)
 3. **Output:** Tensor of length 8 with binary values 0 or 1 indicating if the particular event is present or not.
 
-![SED Model](Images/Model_Sample_temp_2.JPG) 
+![SED Model](Images/Model_Git.jpg) 
 
 ## Results
-Under work
+Trained for 30 epochs, here we considered the Accuracy and Recall Score (macro) on the validation set to examine the performance for the current SED task.\
+![Results](Images/epoch_30_results.jpg)
+![Graph](Images/Train_Valid_loss.png) 
+
+
