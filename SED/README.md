@@ -20,8 +20,17 @@ Use ```df_polyphonic_meta.py``` to generate df required for the SED dataloader o
 ![SED Model](Images/Model_Git.jpg) 
 
 ## Results
-Trained for 30 epochs, here we considered the Accuracy and Recall Score (macro) on the validation set to examine the performance for the current SED task.\
-![Results](Images/epoch_30_results.jpg)
-![Graph](Images/Train_Valid_loss.png) 
+Trained for 30 epochs, here we considered the Accuracy and Recall Score (macro) on the validation set to examine the performance for the current SED task.
 
+_Loss variation over the training for train and valid set:_
+>![Graph](Images/Train_Valid_loss_1.png) 
+
+_Results with Accuracy and Recall Score on Valid set:_
+>![Results](Images/epoch_30_results_1.jpg)
+
+_Accuracy and Recall Score improvement over each epoch:_
+>![Report](Images/metrics.png)
+
+_Overall Classification Report:_
+>![Report](Images/classification_report_1.jpg)
 
