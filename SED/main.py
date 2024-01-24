@@ -33,14 +33,13 @@ else:
 
 
 ''' User Inputs '''
-disc_SED_Meta = 'E:\BIIC\Dataset\Python\Data Sort\Mix\Meta\SED'
-disc_STeLiN_US = 'E:\BIIC\Dataset\Python\Data Sort\Mix\Output\STeLiN-US'
-print_df = False
+disc_STeLiN_US = 'User needs to give address for the STeLiN-US dataset location on the local'
+print_df = False   # print df if require
 
 ''' Read Event Meta Data '''
-df = pd.read_pickle(os.path.join(disc_SED_Meta, 'df_polyphonic_meta.pkl'))
+df = pd.read_pickle('df_polyphonic_meta.pkl')
 if print_df==True:
-    df.info() # print df if require
+    df.info() 
 
 
 ## Default Labels
@@ -90,6 +89,7 @@ optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
 train_losses = []
 valid_losses = []
+Accuracy = []
 Recall_Score = []
 
 
@@ -130,7 +130,7 @@ def train(model, loss_fn, train_loader, valid_loader, epochs, optimizer, train_l
     valid_losses.append(batch_losses)
     trace_y = np.concatenate(trace_y)
     trace_yhat = np.concatenate(trace_yhat)
-    Accuracy = accuracy_score(trace_y, trace_yhat)
+    Accuracy.append(accuracy_score(trace_y, trace_yhat))
     
     
     Recall_Score.append(recall_score(trace_y, trace_yhat, average='macro'))
@@ -140,7 +140,7 @@ def train(model, loss_fn, train_loader, valid_loader, epochs, optimizer, train_l
     
     print(tabulate([['Train-Loss', f"{np.mean(train_losses[-1]):0,.4f}"], 
                     ['Valid-Loss', f"{np.mean(valid_losses[-1]):0,.4f}"],
-                    ['Valid-Accuracy', f"{Accuracy:0,.4f}"],
+                    ['Valid-Accuracy', f"{Accuracy[-1]:0,.4f}"],
                     ['Recall-Score', f"{Recall_Score[-1]:0,.4f}"]], 
                     headers=['Metrics', 'Results'], tablefmt="grid"))
     
@@ -166,3 +166,11 @@ plt.legend(['Train Loss'], fontsize='18')
 plt.subplot(2,1,2)
 plt.plot(valid_losses, 'tab:orange')
 plt.legend(['Valid Loss'], fontsize='18')
+
+
+plt.figure(figsize=(12,6))
+plt.plot(Recall_Score, 'blue')
+plt.plot(Accuracy, 'tab:green')
+plt.xlabels('Epochs')
+plt.legend(['Recall Score', 'Accuracy'], fontsize='18')
+plt.title('Metrics')
