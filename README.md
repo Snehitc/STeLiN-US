@@ -53,11 +53,12 @@ STeLiN-US
 |         |____Train_Valid_loss.png
 |         |____classification_report.jpg
 |         |____epoch_30_results.jpg
+|         |____metric.png
+|    |____Model.py
 |    |____README.md
+|    |____STeLiN_US_Data.py
 |    |____df_polyphonic_meta.pkl
 |    |____df_polyphonic_meta.py
-|    |____STeLiN_US_Data.py
-|    |____Model.py
 |    |____main.py
 |
 |____README.md
