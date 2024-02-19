@@ -35,7 +35,7 @@ We use 14 acoustic sound classes divided into event and background as below:
     address = "Tampere, Finland",
     month = "September",
     year = "2023",
-    pages = "21--25",
+    pages = "21--25"
     }
 ```
 ## File Structure on Github
