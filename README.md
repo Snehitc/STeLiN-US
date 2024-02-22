@@ -1,8 +1,10 @@
 # STeLiN-US Database
+[![Paper](https://img.shields.io/badge/DCASE-Paper-green)](https://dcase.community/documents/workshop2023/proceedings/DCASE2023Workshop_Chunarkar_49.pdf) 
+[![Dataset](https://img.shields.io/badge/Dataset-STeLiN%20US-blue?logo=zenodo)](https://zenodo.org/records/10560740)
 
 ## Download Link
 <!--- Static Badge-->
-[![Dataset](https://img.shields.io/badge/Dataset-STeLiN%20US-blue?logo=zenodo)](https://zenodo.org/records/10560740)\
+[STeLiN-US Database](https://zenodo.org/records/10560740)\
 The dataset is 4.0 GB in size and can be downloaded in a zip file from the above link.
 
 
