@@ -1,7 +1,8 @@
 # STeLiN-US Database
 
 ## Download Link
-[STeLiN-US Database](https://zenodo.org/records/10560740)\
+<!--- Static Badge-->
+[![Dataset](https://img.shields.io/badge/Dataset-STeLiN%20US-blue?logo=zenodo)](https://zenodo.org/records/10560740)\
 The dataset is 4.0 GB in size and can be downloaded in a zip file from the above link.
 
 
