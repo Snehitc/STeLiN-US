@@ -49,6 +49,7 @@ STeLiN-US
 |____Dataset
 |    |____Image
 |         |____Map_with_Graph.png
+|         |____STeLiN-US-Poster.pdf
 |    |____README.md
 |
 |____SED
