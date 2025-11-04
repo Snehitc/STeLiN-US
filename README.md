@@ -1,6 +1,6 @@
 # STeLiN-US Database
 [![Paper](https://img.shields.io/badge/DCASE-Paper-green)](https://dcase.community/documents/workshop2023/proceedings/DCASE2023Workshop_Chunarkar_49.pdf) 
-[![Poster](https://img.shields.io/badge/DCASE-Poster-orange)](https://github.com/Snehitc/STeLiN-US/raw/main/Dataset/Image/STeLiN-US-Poster.pdf)
+[![Poster](https://img.shields.io/badge/DCASE-Poster-orange)](https://cdn.jsdelivr.net/gh/Snehitc/STeLiN-US@main/Dataset/Image/STeLiN-US-Poster.pdf)
 [![Dataset](https://img.shields.io/badge/Dataset-STeLiN%20US-blue?logo=zenodo)](https://zenodo.org/records/10560740)
 
 ## Download Link
